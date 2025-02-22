@@ -1,0 +1,14 @@
+/* naveen css file is here */
+.chart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+    margin: 0;
+    overflow: hidden;
+}
+canvas {
+    max-width: 500px;
+    max-height: 500px;
+}
