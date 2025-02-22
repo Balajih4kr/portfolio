@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.hero {
+    background: #1a1a1a;
+    padding: 100px 20px;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    animation: glow 1.5s infinite alternate;
+}
+
+.hero h1 span {
+    color: #ffa500;
+    
+}
+.animated-text{
+    color: #ffa500;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 150px;
+    font-size: 90px !important;
+    
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #fff !important;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #ffa500;
+    }
+    to {
+        text-shadow: 0 0 20px #ffa500;
+    }
+}
