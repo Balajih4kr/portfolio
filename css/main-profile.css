@@ -8,6 +8,7 @@
 #profile-card{
     background: #212121;
     object-fit: cover;
+<<<<<<< HEAD
     width: 250px;
     height: auto;
     text-align: center;
@@ -41,3 +42,21 @@
     font-size: 20px;
     cursor: pointer;
 } */
+=======
+    width: 300px;
+    padding: 13px;
+    border-radius: 4px;
+    height: auto;
+    text-align: center;
+    margin-left: 150px;
+                 
+}
+.profile-content{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#profile-card h3{
+    color: white;
+}
+>>>>>>> c5873c08d3ab48d4949fdbff38a2dec8c37a5ec7

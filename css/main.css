@@ -8,17 +8,11 @@ body{
     font-family: 'Roboto Mono', monospace !important;
     background:  #1a1a1a !important;                               
 }
-/* naveen css file is here */
-.chart-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* Ensures full width */
-    height: 100vh; /* Keeps it centered vertically */
-    background-color: black; 
-}
 
+<<<<<<< HEAD
 canvas {
     max-width: 500px;
     max-height: 500px;
 }
+=======
+>>>>>>> c5873c08d3ab48d4949fdbff38a2dec8c37a5ec7
