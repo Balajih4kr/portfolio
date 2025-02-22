@@ -7,7 +7,7 @@ a{
     left: 0;
     top: 0;
     width: 100%;
-    padding: 25px 9%;
+    padding: 5px 5%;
     
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ a{
 .home{
     display:flex;
     align-items: center;
-    height: 100vh;
+    
     padding: 60px 9% 0;
     color: white;
 }
