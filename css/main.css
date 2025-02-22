@@ -1,0 +1,11 @@
+/* Fixed Bacground color  #1a1a1a */
+/* Profile card styling   #212121 */
+/* Topic or Heading color and main color of our website we gonna use #ffa500 */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace !important;
+    background:  #1a1a1a !important;                               
+}
+

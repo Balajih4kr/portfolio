@@ -1,0 +1,40 @@
+
+body::before{
+    content: 'XS';
+    position: fixed;
+    color: red;
+    font-size: larger;
+    font-weight: 800;
+    top: 0;
+    left: 0;
+}
+
+@media (min-width: 576px){ /* For Mobile - Landscape view Resposnsive */
+    body::before{
+        content: 'SM';
+    }
+}
+
+@media (min-width: 768px){ /* For Tablet Resposnsive */
+    body::before{
+        content: 'MD';
+    }
+}
+
+@media (min-width: 992px){ /* For Slightly bigger than Tablet Resposnsive */
+    body::before{
+        content: 'LG';
+    }
+}
+ 
+@media (min-width: 1200px){ /* For Laptop Resposnsive */
+    body::before{
+        content: 'XL';
+    }
+}
+
+@media (min-width: 1400px){ /* For Desktop and Tv screen Resposnsive */
+    body::before{
+        content: 'XXL';
+    }
+}
