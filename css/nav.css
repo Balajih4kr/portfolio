@@ -3,7 +3,7 @@ a{
     text-decoration: none;
 }
 .navbar{
-    position: fixed;
+    
     left: 0;
     top: 0;
     width: 100%;
@@ -13,6 +13,7 @@ a{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    border-bottom: 3px solid #eb990d;
 }
 .navbar .logo{
     font-size: 30px;
