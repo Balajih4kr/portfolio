@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 a{
     color: white;
     text-decoration: none;
@@ -37,6 +32,66 @@ a{
 }
 .navbar ul li:hover a,
 .navbar ul li.active a{
-    color: #7cf03d;
+    color: #eb990d;
 
 }
+.home{
+    display:flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: white;
+}
+.home-info h1{
+    font-size: 55px;
+}
+.home-info h2{
+    font-size: 35px;
+    margin-top: -10px;
+}
+.home-info p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+.home-info .btn-sci{
+    display: flex;
+    align-items: center;
+
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #eb990d;
+    border: 2px solid  #eb990d;
+    box-shadow: 0 0 10px  #eb990d;
+    border-radius: 30px;
+    font-size: 16px;
+    color:black;
+    font-weight: 600;
+    transition: .4s;
+
+}
+.btn:hover{
+    background: transparent;
+    color:  #eb990d;
+    box-shadow: none;
+}
+.home-info .btn-sci .sci {
+margin-left: 20px;
+}
+.home-info .btn-sci .sci a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #eb990d;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #eb990d;
+    margin: 0 8px;
+    transition: .4s;
+    }
+    .home-info .btn-sci .sci a:hover{
+    background-color: #eb990d;
+    color: black;
+    box-shadow: 0 0 10px #eb990d;
+
+    }
