@@ -1,7 +1,13 @@
 footer {
     
-    background-color: #ff7f00;
-    color: white;
+    /* From https://css.glass */
+background:#212121;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ff7f00;
     padding: 20px 0;
     text-align: center;
 }
@@ -19,12 +25,12 @@ footer {
 }
 
 .footer-section h2 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .footer-section p, .footer-section ul {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .footer-section ul {
