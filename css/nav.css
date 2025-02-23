@@ -97,10 +97,3 @@ margin-left: 20px;
     box-shadow: 0 0 10px #eb990d;
 
     }
-
-
-    @media screen and (max-width: 768px){
-        .nav ul{
-            display: none;
-        }
-    } 
