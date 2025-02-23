@@ -81,8 +81,3 @@ body {
 .social-links a:hover {
     color: #fff;
 }
-@media (min-width: 768px){ /* For Tablet Resposnsive */
-    #card-container {
-        padding: 0;
-    }
-}

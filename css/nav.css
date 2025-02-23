@@ -8,12 +8,12 @@ a{
     top: 0;
     width: 100%;
     padding: 5px 5%;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
     border-bottom: 3px solid #eb990d;
+    padding-top: 20px;
 }
 .navbar .logo{
     font-size: 30px;
@@ -25,6 +25,7 @@ a{
 .navbar ul li{
     list-style: none;
     margin-left: 35px;
+    
 }
 .navbar ul li a{
     font-size: 20px;
@@ -96,3 +97,10 @@ margin-left: 20px;
     box-shadow: 0 0 10px #eb990d;
 
     }
+
+
+    @media screen and (max-width: 768px){
+        .nav{
+            display: none;
+        }
+    } 
