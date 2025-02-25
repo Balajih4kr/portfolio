@@ -2,31 +2,16 @@
 .home-img .img-box{
     width: 350px;
     height: 350px;
+    
     border-radius: 50%;
     padding: 5px;
+    object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 }
-.home-img .img-box::before,
-.home-img .img-box::after{
-    content: '';
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background: conic-gradient(transparent,transparent,transparent,#ffa500);
-    transform: rotate(0deg);
-    animation: rotate-border 10s linear infinite;
-}
-.home-img .img-box::after{
-    animation-delay: -5s;
-}
-@keyframes  rotate-boder{
-    100%{
-        transform: rotate(360deg);
-    }
-}
+
 .home-img .img-box .img-item{
     position: relative;
     width: 100%;
@@ -38,14 +23,13 @@
     justify-content:center;
     z-index: 1;
     overflow: hidden;
-    border: .1px solid #ffa500;
+    border: 3px solid #ffa500;
 
 }
 .home-img .img-box .img-item img{
     position: absolute;
-    top: 30px;
-    display:block;
-    width: 85%;
+     background-color: slateblue;
     object-fit: cover;
-    mix-blend-mode: lighten;
+    display:inline-block;
+    width: 100%;
 }
