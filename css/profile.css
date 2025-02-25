@@ -24,6 +24,7 @@
     z-index: 1;
     overflow: hidden;
     border: 3px solid #ffa500;
+    animation: glow 1.5s infinite alternate;
 
 }
 .home-img .img-box .img-item img{
@@ -32,4 +33,17 @@
     object-fit: cover;
     display:inline-block;
     width: 100%;
+}
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px orange;
+    }
+    100% {
+        box-shadow: 0 0 20px orange, 0 0 40px orange;
+    }
+}
+@media screen and (max-width: 768px){
+    .home-img{
+        margin-left: 50px;
+    }
 }
