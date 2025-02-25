@@ -81,3 +81,11 @@ body {
 .social-links a:hover {
     color: #fff;
 }
+.project-btn{
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 8px;
+    background-color: #f5a623;
+}
+
